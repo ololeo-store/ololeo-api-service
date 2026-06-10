@@ -330,7 +330,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/Users/zanfuu/Project/Coding/ade/backendbucket/generated/prisma",
+      "value": "/Users/zanfuu/Project/Coding/ade/ololeo-api-service/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -344,12 +344,11 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/Users/zanfuu/Project/Coding/ade/backendbucket/prisma/schema.prisma",
+    "sourceFilePath": "/Users/zanfuu/Project/Coding/ade/ololeo-api-service/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": null,
-    "schemaEnvPath": "../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../../prisma",
   "clientVersion": "6.19.3",
@@ -358,6 +357,7 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {
